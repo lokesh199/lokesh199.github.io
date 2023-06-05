@@ -31,4 +31,4 @@ let flipState = function() {
         document.getElementById("description").innerHTML = designation;
         isDhoniTT = true;
     }
-}
+};
