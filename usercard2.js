@@ -20,5 +20,15 @@ let flipState = function() {
         document.getElementById("dhoni-image").src = currentImg;
         document.getElementById("title").innerHTML = currentTitle;
         document.getElementById("description").innerHTML = designation;
+        isDhoniTT = false;
+    }
+    else{
+        currentImg = dhoniAsTT.image;
+        currentTitle = dhoniAsTT.title;
+        designation = dhoniAsTT.designation;
+        document.getElementById("dhoni-image").src = currentImg;
+        document.getElementById("title").innerHTML = currentTitle;
+        document.getElementById("description").innerHTML = designation;
+        isDhoniTT = true;
     }
 }
